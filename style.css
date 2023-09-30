@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+  scroll-behavior: smooth;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+   background: #F6F6F6;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px 0 hsla(0, 0%, 20%, 0.4);
+    padding: 0rem 9% ;
+    height: 70px;
+    background: #ffffff;
+     z-index: 1;
+}
+
+.nav{
+   /* margin-left: 200px; */
+     margin-right:300px;
+}
+.nav > ul{
+    display: flex;
+     list-style: none;
+    
+}
+
+.nav > ul > li > a{
+    margin:10px;
+     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+     color: #0f0e0e;
+}
+
+.nav > ul > li > a:hover{
+    transition: 1s;
+    color: #ff914d;
+}
+
+.logo > a > img{
+      width: 25%;
+      
+}
+
+
+
+
+
+
+.container{
+padding: 35px 9%;
+height: 500px;
+box-shadow: 0px 10px 2px -10px rgba(0, 0, 0, 0.32);
+background: #ffffff;
+    border: 1px solid #e7e7e7;
+margin-bottom: 15px;
+
+}
+
+
+.profile {
+  
+    background: url(./assets/img/profile.png);
+    background-color: #ff914d;
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 130px;
+   width: 260px;
+    height: 345px;
+    margin-left: 170px;
+    box-shadow: 0 15px 18px rgba(0, 0, 0, 0.25);
+    /* position: absolute; */
+}
+
+.home-title > h2{
+    margin-top: -210px;
+    margin-left:478px;
+    /* background-color: aqua; */
+    width: 37%;
+    font-family: 'Luckiest Guy', cursive;
+   font-weight:400;
+   font-size: 40px;
+   position: absolute;
+}
+
+.warna-title{
+    color: #ff914d;
+}
+
+
+
+.home-say > a {
+    text-decoration: none;
+    
+}
+
+.home-say-hallo{
+background-color: #ffffff;
+width: 104px;
+height: 37px;
+border-radius: 10px;
+border: 2px solid #FF914D;
+margin-top: -153px;
+margin-left: 771px;
+transform: rotate(-12deg);
+/* position: absolute; */
+}
+
+.home-say-hallo >  p {
+margin-top: 9px;
+margin-left: 5px;
+color: #0f0e0e;
+
+
+}
+.home-say-hallo:hover {
+background: #FF914D;
+color: #F6F6F6;
+ transition: .10s;
+
+}
+.home-say-hallo:hover > p,
+.home-say-hallo:hover > .home-icon i{
+    color: #F6F6F6; 
+}
+
+
+.home-icon{
+    margin-top: -36px;
+    margin-left: 75px;
+   position: absolute;
+   
+}
+
+
+.fa-envelope{
+    
+    color: #FF914D;
+    font-size: 22px;
+   
+}
+
+
+.home-icon-media{
+margin-top: -94px;
+margin-left: 1050px;
+font-size: 25px;
+display: flex;
+flex-direction: column;
+position: absolute;
+
+}
+
+.home-icon-media > a> i {
+    margin: 10px; 
+    color: #0f0e0e;
+   
+}
+
+.home-icon-media > a> i:hover{
+    color: #ff914d;
+     transition: .10s;
+}
+
+.content{
+ padding: 15px 9%;
+margin: 12px;
+}
+.section-home {
+    text-align: center;
+    margin-top: 80px;
+    /* padding-top: 120px; */
+    
+  
+}
+.section-home-title{
+    font-family: sans-serif;
+  
+}
+
+.garis-section-home {
+    background-color: #FF914D;
+    height: 3px;
+    width: 40px;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: -18px;
+    border-radius: 12px;
+    
+      
+}
+
+.section-home-kotak{
+     display: flex; 
+     flex-direction: column;
+  /* background-color: #FF914D; */
+    /* margin-bottom: 120px; */
+
+    
+}
+
+.section-home-dalam-kotak{
+    width: 15%;
+    height: 100px;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    margin: 12px;
+     margin-left: 265px;
+
+}
+
+.section-home-texs{
+    margin-left: 620px;
+    margin-top: -372px;
+    text-align: justify;
+    width: 30%;
+    
+    
+}
+.section-home-texs >p{
+    font-size: 14px;
+    text-indent: 20px; 
+    margin-bottom: 1em; 
+     font-family: sans-serif;
+    color: #545252;
+}
+
+.fa-school{
+    margin-top: 15px;
+    margin-left: 57px;
+    font-size: 60px;
+
+}
+
+.fa-code-branch{
+      margin-top: 15px;
+    margin-left: 57px;
+    font-size: 60px;
+}
+
+.fa-wrench{
+  margin-top: 15px;
+    margin-left: 57px;
+    font-size: 60px;  
+}
+
+
+.section-home-education{
+    /* background: #545252; */
+    width: 50%;
+    height: 300px;
+ margin: 0 auto;
+}
+
+.section-home-education > h3{
+text-align: center;
+ font-family: sans-serif;
+    color: #545252;
+}
+
+.section-home-education-lingkar-pembatas{
+    width: 10px;
+    height: 10px;
+    background-color:#ff914d;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.section-home-education-garis-pembatas{
+    width: 2px;
+    height: 100px;
+    background-color: #0f0e0e;
+    margin: 0 auto;
+    
+}
+
+.section-home-education-texs-1{
+    margin-top: -240px;
+    margin-left: 110px;
+    width: 89px;
+     font-family: sans-serif;
+    color: #545252;
+    
+   
+}
+
+.section-home-education-texs-2{
+    /* margin-top: 40px; */
+    margin-left: 360px;
+    width: 164px;
+     font-family: sans-serif;
+    color: #545252;
+   
+}
+
+.section-home-education-texs-3{
+    /* margin-top: 0; */
+    margin-left: 110px;
+    width: 164px;
+     font-family: sans-serif;
+    color: #545252;
+   
+}
+
+.section-home-education-texs-4 > p{
+    /* margin-top: 0; */
+    margin-left: 360px;
+    width: 210px;
+    font-family: sans-serif;
+    color: #545252;
+   
+}
+.section-home-skill{
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.06);
+    width: 50%;
+    height: 300px;
+ margin: 0 auto;
+ position: relative; 
+}
+
+.section-home-skill-garis-pembatas{
+     width: 2px;
+    height: 220px;
+    background-color: #0f0e0e;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 50%;
+}
+.section-home-skill-judul-1{
+    /* margin-top: -320px; */
+    margin-left: 15%;
+    font-family: sans-serif;
+    color: #545252;
+    /* background: #FF914D; */
+   position: absolute;
+}
+.section-home-skill-judul-2{
+    /* margin-top: -250px; */
+    margin-left: 63%;
+    font-family: sans-serif;
+    color: #545252;
+    position: absolute;
+    /* background: #FF914D; */
+   
+}
+
+.section-home-skill-judul-1 >p{
+  font-family: sans-serif;
+    color: #545252;
+}
+
+
+.content-design {
+    text-align: left; 
+}
+
+.section-home-project{
+width: 75%;
+height: 330px;
+/* background-color: #FF914D; */
+margin: 0 auto;
+}
+
+.section-home-kotak-project{
+    width: 457px;
+    height: 233px;
+    /* background-color: #0e0e0e; */
+    position: absolute;
+    margin-top: 12px;
+    /* left: 120px; */
+}
+
+.section-home-kotak-project > img{
+   width: 457px;
+    height: 233px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.10);
+    
+}
+
+.section-home-judul-project{
+    margin-left: 550px;
+    /* background-color: aqua; */
+    position: absolute;
+     text-align: left; 
+
+}
+.section-home-judul-project > P {
+     width: 310px;
+     /* background: #e0dad6; */
+      margin-top: -10px;
+      font-family: sans-serif;
+    color: #545252;
+   font-size: 15px;
+   
+}
+.section-home-judul-project > h2 {
+   margin-top: -10px;
+   font-family: sans-serif;
+   width: 360px;
+}
+
+.section-home-judul-project > h3 {
+   font-family: sans-serif;
+    color: #2c2b2b;
+}
+
+.section-home-judul-project > a> li {
+   margin-top: -10px;
+    
+}
+.section-home-judul-project > a  {
+   font-family: sans-serif;
+    color: #ff914d;
+    list-style: none;
+    
+}
+
+.section-home-judul-project > a:hover {
+    color: #ff5722; 
+}
+
+/* /// */
+
+.section-home-blog{
+width: 75%;
+height: 330px;
+margin: 0 auto;
+}
+
+.section-home-kotak-blog{
+    width: 457px;
+    height: 233px;
+    /* background-color: #0e0e0e; */
+    position: absolute;
+    margin-top: 12px;
+    /* left: 120px; */
+}
+
+.section-home-kotak-blog > img{
+   width: 457px;
+    height: 233px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.10);
+    
+}
+
+
+.section-home-judul-blog{
+    margin-left: 550px;
+    position: absolute;
+     text-align: left; 
+     margin-top: 30px;
+
+}
+.section-home-judul-blog > P {
+     width: 310px;
+     /* background: #e0dad6; */
+      margin-top: -10px;
+      font-family: sans-serif;
+    color: #545252;
+   font-size: 15px;
+   
+}
+.section-home-judul-blog > h2 {
+   margin-top: -10px;
+   font-family: sans-serif;
+   width: 360px;
+}
+
+
+.section-home-judul-blog > a> li {
+   margin-top: -10px;
+    
+    
+}
+.section-home-judul-blog > a  {
+   font-family: sans-serif;
+    color: #ff914d;
+    list-style: none;
+   
+    
+}
+
+.section-home-judul-blog > a:hover {
+    color: #ff5722; 
+}
+
+.articel{
+      position: absolute;
+    margin-top: 300px;
+    margin-left: 410px;
+}
+
+.articel > a {
+    font-family: sans-serif;
+    color: #ff914d;
+    list-style: none;
+   
+}
+
+.articel> a:hover {
+    color: #ff5722; 
+}
+
+.section-home-contact{
+width: 75%;
+height: 330px;
+margin: 0 auto;
+/* background-color: #e97d08; */
+}
+
+.section-home-kotak-contact{
+ width: 25%;
+height: 230px;
+/* background-color: #e1e0df; */
+margin-top: 20px;
+position: absolute;
+}
+
+.contact-content{
+     text-align: justify; 
+}
+
+.home-icon-media-contact {
+margin-left: -270px;
+}
+.home-icon-media-contact > a{
+margin: 5px;
+font-size: 25px;
+color: #0f0e0e;
+}
+
+.home-icon-media-contact > a:hover{
+color: #ff914d;
+transition: .10s; 
+}
+
+.section-home-kotak-contact-2{
+    width: 25%;
+    height: 250px;
+    /* border-radius: 10px;
+    border: 1px solid #dedcdb;
+    background-color: #0dd13e; */
+    margin-left: 536px;
+    margin-top: 20px;
+position: absolute;
+}
+.bungkus-pesan{
+    width: 240px;
+    margin-top: 15px;
+    border: 1px solid #dedcdb;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+   position: absolute;
+   
+}
+
+.pesan-1{
+    /* background-color: #545252; */
+    margin: 12px;
+    margin-left: 12px;
+    width: 70%;
+   
+}
+.label{
+    margin-right: 127px;
+    font-family: sans-serif;
+    color: #545252;
+}
+
+.label-2{
+  border-radius: 5px;
+    border: 1px solid #dedcdb;
+    width: 210px;
+    height: 35px;
+    background-color: #F6F6F6;
+    
+   
+}
+
+.label-pesan{
+  border-radius: 5px;
+    border: 1px solid #dedcdb;
+    background-color: #F6F6F6;
+    
+    width: 210px;
+   resize: none;
+    
+   
+}
+
+.label-2:focus,
+.label-pesan:focus {
+    outline: none; 
+   
+}
+
+.button-kirim{
+    background: #FF914D;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.button-kirim:hover{
+    background: #ff5722;
+    transition: 1s;
+   
+}
+
+.footer{
+background-color: #ffffff;
+height: 50px;
+margin-top: 12px;
+display: flex;
+    justify-content: center; 
+    align-items: center; 
+   font-family: sans-serif;
+    color: #545252;
+    font-size: 12px;
+}
+
+/*  */
+
+/* Media query untuk perangkat dengan lebar layar kurang dari atau sama dengan 768px (atau sesuaikan dengan kebutuhan Anda) */
+@media (max-width: 768px) {
+  /* Sembunyikan navbar utama dan tampilkan hamburger menu */
+  .nav {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px; /* Sesuaikan dengan jarak yang diinginkan */
+  }
+
+  /* Tampilkan ul untuk hamburger menu */
+  .nav-bars ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Sesuaikan dengan latar belakang yang Anda inginkan */
+    position: absolute;
+    top: 70px; /* Sesuaikan dengan jarak dari navbar atas */
+    right: 0;
+    width: 200px; /* Sesuaikan dengan lebar menu */
+    padding: 10px;
+    box-shadow: 0 1px 4px 0 hsla(0, 0%, 20%, 0.4);
+    border-radius: 5px;
+    z-index: 2;
+    display: none; /* Sembunyikan menu saat awalnya */
+  }
+
+  .nav-bars ul li {
+    margin: 10px 0;
+  }
+
+  /* Tampilkan menu saat tombol hamburger diklik */
+  #check:checked + .nav-bars ul {
+    display: block;
+  }
+}
+
+
+@media (max-width: 1280px){
+.home-title > h2{
+
+ font-size: 30px;
+ width: 35%;
+}
+
+.home-say-hallo {
+   /* margin-left: 12px; */
+   
+   margin-top: -165px;
+   margin-left: 700px;
+   width: 95px;
+}
+.home-say-hallo > p{
+    font-size: 15px;
+}
+.fa-envelope{
+    font-size: 19px;
+    margin-top: 3px;
+    margin-left: -6px;
+}
+.home-icon-media{
+    margin-left: 920px;
+}
+.section-home-education{
+   
+}
+.section-home-education-texs-1{
+  
+    margin-left: 70px;
+}
+
+.section-home-education-texs-2{
+    
+    margin-left: 300px;
+}
+.section-home-education-texs-3{
+    
+    margin-left: 70px;
+}
+.section-home-education-texs-4{
+   
+  margin-left: -60px;
+
+
+}
+}
